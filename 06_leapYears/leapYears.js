@@ -21,7 +21,7 @@ leapYears(1985) // is not a leap year: returns false
 // Do not edit below this line
 module.exports = leapYears;
 
-/* + TEST PASSED OWN SOLUTION
+/* 3 TEST PASSED OWN SOLUTION
 const leapYears = function (year) {
   if (
     year % 4 === 0 ||
