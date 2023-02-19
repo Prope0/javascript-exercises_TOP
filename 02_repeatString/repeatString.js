@@ -1,11 +1,9 @@
-const repeatString = function(string ; numOfTimes) {
-    string = prompt('Please neter the string You want repeated: ');
-    numOfTimes = prompt('please enter the number of times You want to repeat it: ');
-    result = '' ;
+const repeatString = function(word , numOfTimes) {
+    let result = "" ;
     for (let i = 0; i < numOfTimes ; i++ ) {
-        result += string
+        result += word
     }
-
+return result
 };
 
 
