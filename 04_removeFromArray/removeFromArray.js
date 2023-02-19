@@ -1,15 +1,4 @@
-const removeFromArray = function (inputArray, ...args) {
-  const result = [];
-  for (let i = 0; i < inputArray.length; i++) {
-    // push items from inputArray to result except, the ...args
-    if (inputArray[i] != args) {
-      result.push(inputArray[i]);
-    }
-  }
-  return result;
-};
-
-/* const removeFromArray = function (array, ...args) {
+const removeFromArray = function (array, ...args) {
     // create a new empty array
     const result = [];
     // use forEach to go through the array
@@ -24,14 +13,14 @@ const removeFromArray = function (inputArray, ...args) {
     // and return that array
     return result;
   };
-*/
 
-/* OWN NON WORKING SOLUTION
+/* OWN WORKING SOLUTION FOR TEST 1
+const removeFromArray = function (inputArray, ...args) {
 const removeFromArray = function (inputArray, ...args) {
   const result = [];
   for (let i = 0; i < inputArray.length; i++) {
     // push items from inputArray to result except, the ...args
-    if (inputArray[i] !== args) {
+    if (inputArray[i] != args) {
       result.push(inputArray[i]);
     }
   }
